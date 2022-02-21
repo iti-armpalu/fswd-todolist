@@ -15,9 +15,9 @@ gem 'uglifier', '~> 4.2.0'
 # gem 'mini_racer', platforms: :ruby
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails', '~> 4.4'
+# gem 'jquery-rails', '~> 4.4'
 # Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', '~> 5.0'
+# gem 'coffee-rails', '~> 5.0'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5.2.1'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -28,7 +28,8 @@ gem 'jbuilder', '~> 2.11'
 gem 'bcrypt', '~> 3.1'
 
 # Bootstrap
-gem 'bootstrap', '~> 5.1'
+gem 'bootstrap', '~> 5.1.3'
+gem 'jquery-rails'
 
 # AWS S3
 gem 'aws-sdk-s3', '~> 1.112'
@@ -44,6 +45,8 @@ gem "webrick", "~> 1.7"
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.10.3', require: false
+
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -71,5 +74,5 @@ end
 
 group :production do
   # Use pg as the database for Active Record
-  # gem 'pg', '~> 1.3.1'
+  gem 'pg', '~> 1.3.1'
 end
