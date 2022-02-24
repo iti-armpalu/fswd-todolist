@@ -40,7 +40,7 @@
   }
   
   .date {
-   border-bottom: 1px solid rgba(135,150,254, 0.5);
+    border-bottom: 1px solid rgba(135,150,254, 0.5);
   }
   
   .date h6 {
@@ -69,7 +69,6 @@
     color: #7283ff;
     background-color: transparent;
     border: 0;
-  
   }
   
   .add-button:hover {
@@ -88,7 +87,6 @@
     padding: 15px;
     margin: 0 0 0 5px;
     line-height: 1.2;
-  
   }
   
   .task-content {
@@ -98,6 +96,7 @@
   .mark-complete {
     height: 18px;
     width: 18px;
+    margin-top: 7px;
   }
   
   .crossed-out {
@@ -168,7 +167,7 @@
   }
   
   .custom-checkbox .custom-control-input:checked:focus ~ .custom-control-label::before {
-   box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(114, 131, 255, 0.25);
+    box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(114, 131, 255, 0.25);
   }
   
   .custom-checkbox .custom-control-input:active ~ .custom-control-label::before {
@@ -177,6 +176,6 @@
   
   .custom-control-label::before {
     background-color: transparent;
-    border: 1px solid #7283ff;
+    border: 1px solid #7283ff !important;
   }
 }
